@@ -10,4 +10,11 @@ npm init for creating package.json file
    -server up the public directory
    -listen on port 3000
 4)create index.html and render "Chat app " to the screeen
-4)Test your work ! Start the server and view the page in the browser
+5)Test your work ! Start the server and view the page in the browser
+
+Goal: Setup scripts in package.json
+
+1) create "start" script to start the app using node
+2)Install nodemon and a development dependency
+3)create a "dev" script to start the app using nodemon
+4)Run both scripts to test your work
