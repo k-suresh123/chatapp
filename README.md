@@ -1,5 +1,5 @@
 # chatapp
-Goal: create an Express we server
+Goal: create an Express web server
 
 1)create chatapp folder ,inside  create src folder in that
 chatapp->src->index.js
@@ -18,3 +18,8 @@ Goal: Setup scripts in package.json
 2)Install nodemon and a development dependency
 3)create a "dev" script to start the app using nodemon
 4)Run both scripts to test your work
+
+
+
+install library:
+npm i socket.io@2.2.0

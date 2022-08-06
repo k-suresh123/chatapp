@@ -1,0 +1,38 @@
+What is WebSocket and how it works?
+A WebSocket is a persistent connection between a client and server. 
+WebSockets provide a bidirectional, full-duplex communications channel that operates
+ over HTTP through a single TCP/IP socket connection. At its core, 
+ the WebSocket protocol facilitates message passing between a client and server.
+
+
+1)websocket is not specific to nodejs andalso other technology too.
+http protocl, websocket protocl allow us to communication
+nodejs server ,one client or more than one client can connect too.
+four clients can connect server using websocket
+
+websocket protocl allow for full duplex communication
+websocket is a separate protocl from HTTP
+
+What protocol is used in WebSocket?
+1.7.
+The WebSocket protocol is an independent TCP-based protocol. 
+Its only relationship to HTTP is that its handshake is interpreted by HTTP servers as an Upgrade request.
+ By default the WebSocket protocol uses port 80 for regular WebSocket connections and port 443 for WebSocket connections tunneled over TLS [RFC2818].
+
+
+WebSocket approach is ideal for real-time scalable application, whereas REST is better suited for the scenario with lots of getting request.
+ WebSocket is a stateful protocol, whereas REST is based on stateless protocol, i.e. 
+ the client does not need to know about the server and the same hold true for the server
+
+ Is WebSocket faster than https?
+Almost all the real-time applications like (trading, monitoring, notification) services use WebSocket to
+receive the data on a single communication channel.
+Simple RESTful application uses HTTP protocol which is stateless.
+All the frequently updated applications used WebSocket because it is faster than HTTP Connection.
+
+How do we create WebSocket?
+Creating a WebSocket object
+
+In order to communicate using the WebSocket protocol, 
+you need to create a WebSocket object; this will automatically attempt to open the connection to the server.
+ The URL to which to connect; this should be the URL to which the WebSocket server will respond.

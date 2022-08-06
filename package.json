@@ -1,0 +1,27 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Goal: create an Express web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-suresh123/chatapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-suresh123/chatapp/issues"
+  },
+  "homepage": "https://github.com/k-suresh123/chatapp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
