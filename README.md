@@ -3,6 +3,7 @@ Goal: create an Express web server
 
 1)create chatapp folder ,inside  create src folder in that
 chatapp->src->index.js
+
 npm init for creating package.json file
 
 2)initilize npm and install Express
